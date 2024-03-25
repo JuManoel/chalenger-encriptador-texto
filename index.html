@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="stylesheet" href="reset.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Workbench&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -10,17 +14,24 @@
     <header>
         <script src="app.js"></script>
         <script src="app.js" defer></script>
+        <h1 id="textEncriptar">Encriptador de Texto</h1>
     </header>
     <main>
-        <p>Ingrese el Texto</p>
+        <p class="textoSite">Ingrese el Texto</p>
         <input type="text" id="textEncriptar">
         <button onclick="getElementEnc();">Encriptar</button>
         <button onclick="getElementDesEnc();">Desencriptar</button>
-        <p>Texto Despues</p>
+        <p class="textoSite">Texto Despues</p>
         <p id="textoDesCrip"></p>
     </main>
     <footer>
-
+        <p>Challenger Alura Latan</p>
+        <p>Aluno: Juan Manoel Miranda Gómez</p>
+        <p>Links</p>
+        <div class="textIcons">
+            <a href="https://github.com/JuManoel"><img src="img/circle-linkedin-512.webp" class="icon"></a>
+            <a href="https://www.linkedin.com/in/juan-manoel-miranda-gómez/"><img src="img/github.png" class="icon"></a>
+        </div>
     </footer>
 </body>
 </html>

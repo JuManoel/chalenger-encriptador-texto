@@ -1,0 +1,34 @@
+
+
+
+
+footer{
+    background-color: #149414;
+}
+
+
+#textEncriptar{
+
+}
+
+.textIcons{
+    float: right;
+}
+
+.textoSite{
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "BLED" 0,
+        "SCAN" 0;
+    
+    color: #149414;
+    padding: 10px 10px 10px 0px;
+}
+
+
+.icon{
+    width: 30px;
+}
