@@ -14,24 +14,33 @@
     <header>
         <script src="app.js"></script>
         <script src="app.js" defer></script>
-        <h1 id="textEncriptar">Encriptador de Texto</h1>
+        <h1>Encriptador de Texto</h1>
     </header>
     <main>
-        <p class="textoSite">Ingrese el Texto</p>
-        <input type="text" id="textEncriptar">
-        <button onclick="getElementEnc();">Encriptar</button>
-        <button onclick="getElementDesEnc();">Desencriptar</button>
-        <p class="textoSite">Texto Despues</p>
-        <p id="textoDesCrip"></p>
+        <div class="alinhar">
+            <div class="coluna">
+                <p class="textoSite">Ingrese el Texto</p>
+                <textarea id="textEncriptar"></textarea>
+            </div>
+    
+            <div class="coluna">
+                <button onclick="getElementEnc();">Encriptar</button>
+                <button onclick="getElementDesEnc();">Desencriptar</button>
+            </div>
+    
+            
+            <div class="coluna"></div>
+                <p class="textoSite">Texto Despues</p>
+                <p id="textoDesCrip"></p>
+            </div>
+        </div>
+        
+        
     </main>
     <footer>
-        <p>Challenger Alura Latan</p>
-        <p>Aluno: Juan Manoel Miranda Gómez</p>
-        <p>Links</p>
-        <div class="textIcons">
-            <a href="https://github.com/JuManoel"><img src="img/circle-linkedin-512.webp" class="icon"></a>
-            <a href="https://www.linkedin.com/in/juan-manoel-miranda-gómez/"><img src="img/github.png" class="icon"></a>
-        </div>
+        <p>Challenger Alura Latan. Aluno: Juan Manoel Miranda Gómez. <a href="https://github.com/JuManoel"><img src="img/circle-linkedin-512.webp" class="icon"></a>
+            <a href="https://www.linkedin.com/in/juan-manoel-miranda-gómez/"><img src="img/github.png" class="icon"></a></p>
+        
     </footer>
 </body>
 </html>

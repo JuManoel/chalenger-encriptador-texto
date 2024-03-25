@@ -1,15 +1,38 @@
-
-
-
-
-footer{
-    background-color: #149414;
+body{
+    background-image: url("img/backgrund.jpg");
+    background-repeat:no-repeat;
+    background-size: 100%;
 }
+
+header h1{
+    font-size: 50px;
+    color: #149414;
+    background-color: black;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 10px 10px 10px 10px;
+}
+
 
 
 #textEncriptar{
-
+    margin-right: 80px;
 }
+
+.alinhar::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.coluna{
+    float: left;
+    width: 33.33%;
+}
+
 
 .textIcons{
     float: right;
@@ -26,9 +49,21 @@ footer{
     
     color: #149414;
     padding: 10px 10px 10px 0px;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 75%);
 }
 
 
+footer{
+    position: static;
+    margin-top: 30%;
+    padding-top: 7px;
+    padding-bottom: 9px;
+    background-color: #149414;
+    text-align: center;
+    font-size: 20px;
+}
+
 .icon{
-    width: 30px;
+    width: 15px;
 }
