@@ -8,20 +8,36 @@ header h1{
     font-size: 50px;
     color: #149414;
     background-color: black;
-    margin-left: 33%;
-    margin-right: 33%;
+    margin-left: 28%;
+    margin-right: 32%;
     margin-top: 1%;
     margin-bottom: 1%;
     padding: 10px 10px 10px 10px;
+    font-family: "Workbench", sans-serif;
 }
 
 
 
 #textEncriptar{
-    margin-right: 80px;
+    margin-left: 5px;
+    width: 90%;
+    height: 397px;
+    resize: none;
+    border-radius: 0px 10px 20px 20px;
+    font-size: large;
+    background-color: rgba(0, 255, 0, 50%);
+    
 }
 
-.alinhar::after{
+#textoDesCrip{
+    margin-left: 66%;
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: #149414;
+    font-size: large;
+}
+
+.alinhar::after{    
     content: "";
     display: table;
     clear: both;
@@ -33,6 +49,68 @@ header h1{
     width: 33.33%;
 }
 
+
+#textoDespues{
+    margin-left: 66%;
+    text-align: center;
+    margin-right: 5px;
+}
+#textoAntes{
+    margin-right: 8%;
+    text-align: center;
+    margin-left: 5px;
+
+}
+
+.bottumEncrip{
+    background-color: rgba(0, 255, 0, 80%);
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 10%;
+    margin-top: 30%;
+    margin-bottom: 50px;
+    height: 50px;
+    font-size: medium;
+    font-family: "Workbench", sans-serif;
+    transition: 1s all;
+}
+.bottumDecri{
+    background-color: rgba(0, 255, 0, 80%);
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    height: 50px;
+    font-size: medium;
+    font-family: "Workbench", sans-serif;
+    transition: 1s all;
+}
+
+.bottomCopiar{
+    background-color: rgba(0, 255, 0, 80%);
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 4%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    height: 50px;
+    font-size: medium;
+    font-family: "Workbench", sans-serif;
+    transition: 1s all;
+}
+
+.bottumEncrip:hover{
+    transform: scale(1.2);
+}
+
+.bottumDecri:hover{
+    transform: scale(1.2);
+}
+
+.bottomCopiar:hover{
+    transform: scale(1.2);
+}
 
 .textIcons{
     float: right;
@@ -56,7 +134,7 @@ header h1{
 
 footer{
     position: static;
-    margin-top: 30%;
+    margin-top: 1px;
     padding-top: 7px;
     padding-bottom: 9px;
     background-color: #149414;
@@ -65,5 +143,5 @@ footer{
 }
 
 .icon{
-    width: 15px;
+    width: 20px;
 }

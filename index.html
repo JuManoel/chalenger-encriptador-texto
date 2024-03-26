@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Workbench&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Encriptador</title>
 </head>
 <body>
     <header>
@@ -19,27 +19,28 @@
     <main>
         <div class="alinhar">
             <div class="coluna">
-                <p class="textoSite">Ingrese el Texto</p>
-                <textarea id="textEncriptar"></textarea>
+                <p class="textoSite" id="textoAntes">Ingrese el Texto</p>
+                <textarea id="textEncriptar" type="text" placeholder="Ingrese su texto" ></textarea>
             </div>
     
             <div class="coluna">
-                <button onclick="getElementEnc();">Encriptar</button>
-                <button onclick="getElementDesEnc();">Desencriptar</button>
+                <button onclick="getElementEnc();" class="bottumEncrip">Encriptar</button>
+                <button onclick="getElementDesEnc();" class="bottumDecri">Desencriptar</button>
             </div>
     
             
             <div class="coluna"></div>
-                <p class="textoSite">Texto Despues</p>
+                <p class="textoSite" id="textoDespues">Texto Despues</p>
                 <p id="textoDesCrip"></p>
+                <button onclick="copiarTexto();" class="bottomCopiar">Copiar Texto</button>
             </div>
         </div>
         
         
     </main>
     <footer>
-        <p>Challenger Alura Latan. Aluno: Juan Manoel Miranda Gómez. <a href="https://github.com/JuManoel"><img src="img/circle-linkedin-512.webp" class="icon"></a>
-            <a href="https://www.linkedin.com/in/juan-manoel-miranda-gómez/"><img src="img/github.png" class="icon"></a></p>
+        <p>Challenger Alura Latan. Aluno: Juan Manoel Miranda Gómez. <a href="https://github.com/JuManoel"><img src="img/github.png" class="icon"></a>
+            <a href="https://www.linkedin.com/in/juan-manoel-miranda-gómez/"><img src="img/circle-linkedin-512.webp" class="icon"></a></p>
         
     </footer>
 </body>

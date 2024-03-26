@@ -126,10 +126,6 @@ function validad(cadena){
     let isLetra=true;
     let letras=" qwertyuiopasdfghjklçzxcvbnm";
     for (let i = 0; i < cadena.length; i++) {
-        if(cadena[i]==cadena[i].toUpperCase() && cadena[i]!=" "){
-            alert("No puede utilizar Mayusculas");
-            return false;
-        }
         isLetra=false;
         for (let j = 0; j < letras.length; j++) {
             if(letras[j]==cadena[i]){
@@ -141,6 +137,11 @@ function validad(cadena){
             alert("Solo puede letras minusculas sin acento.\nTampoco acepta caracteres especiales");
             return false;
         }
+        if(cadena[i]==cadena[i].toUpperCase() && cadena[i]!=" "){
+            alert("No puede utilizar Mayusculas");
+            return false;
+        }
+        
     }
     return true;
 }
@@ -153,4 +154,17 @@ function getElementEnc(){
 function getElementDesEnc(){
     let text=desencriptar(document.getElementById("textEncriptar").value);
     document.getElementById("textoDesCrip").innerHTML=text;
+}
+
+
+function copiarTexto() {
+    const textoACopiar = textoDesCrip.innerHTML;
+    navigator.clipboard.writeText(textoACopiar)
+        .then(() => {
+            alert("Texto copiado al portapapeles")
+            
+        })
+        .catch((error) => {
+            alert('Fallo al copiar el texto al portapapeles:', error);
+        })
 }
