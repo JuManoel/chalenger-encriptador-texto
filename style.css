@@ -5,36 +5,38 @@ body{
 }
 
 header h1{
-    font-size: 50px;
-    color: #149414;
+    font-size: 40px;
+    color: rgba(0, 255, 0, 80%);
     background-color: black;
     margin-left: 28%;
-    margin-right: 32%;
+    margin-right: 29%;
     margin-top: 1%;
     margin-bottom: 1%;
     padding: 10px 10px 10px 10px;
-    font-family: "Workbench", sans-serif;
+    font-family: 'MAD hacker', sans-serif;
+    border-radius: 7px;
 }
 
 
 
 #textEncriptar{
     margin-left: 5px;
-    width: 90%;
+    width: 89.5%;
     height: 397px;
     resize: none;
-    border-radius: 0px 10px 20px 20px;
+    border-radius: 0px 0px 20px 20px;
     font-size: large;
-    background-color: rgba(0, 255, 0, 50%);
+    background-color: rgba(0, 255, 0, 80%);
     
 }
 
 #textoDesCrip{
     margin-left: 66%;
     margin-right: 5px;
-    margin-top: 5px;
-    background-color: #149414;
+    margin-top: 0px;
+    background-color: rgba(0, 255, 0, 80%);
     font-size: large;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .alinhar::after{    
@@ -54,11 +56,13 @@ header h1{
     margin-left: 66%;
     text-align: center;
     margin-right: 5px;
+    border-radius: 20px 20px 0px 0px;
 }
 #textoAntes{
     margin-right: 8%;
     text-align: center;
     margin-left: 5px;
+    border-radius: 20px 20px 0px 0px;
 
 }
 
@@ -71,7 +75,7 @@ header h1{
     margin-bottom: 50px;
     height: 50px;
     font-size: medium;
-    font-family: "Workbench", sans-serif;
+    font-family: 'MAD hacker', sans-serif;
     transition: 1s all;
 }
 .bottumDecri{
@@ -83,7 +87,7 @@ header h1{
     margin-bottom: 50px;
     height: 50px;
     font-size: medium;
-    font-family: "Workbench", sans-serif;
+    font-family: 'MAD hacker', sans-serif;
     transition: 1s all;
 }
 
@@ -96,7 +100,7 @@ header h1{
     margin-bottom: 50px;
     height: 50px;
     font-size: medium;
-    font-family: "Workbench", sans-serif;
+    font-family: 'MAD hacker', sans-serif;
     transition: 1s all;
 }
 
@@ -117,7 +121,7 @@ header h1{
 }
 
 .textoSite{
-    font-family: "Workbench", sans-serif;
+    font-family: 'MAD hacker', sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -125,7 +129,7 @@ header h1{
         "BLED" 0,
         "SCAN" 0;
     
-    color: #149414;
+    color: rgba(0, 255, 0, 80%);
     padding: 10px 10px 10px 0px;
     font-size: 40px;
     background-color: rgba(0, 0, 0, 100%);
@@ -137,7 +141,7 @@ footer{
     margin-top: 1px;
     padding-top: 7px;
     padding-bottom: 9px;
-    background-color: #149414;
+    background-color: rgba(0, 255, 0, 80%);
     text-align: center;
     font-size: 20px;
 }
