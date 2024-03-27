@@ -128,17 +128,25 @@ function validad(cadena){
     for (let i = 0; i < cadena.length; i++) {
         isLetra=false;
         for (let j = 0; j < letras.length; j++) {
-            if(letras[j]==cadena[i]){
+            if(letras[j]==cadena[i].toLowerCase()){
                 isLetra=true
                 break;
             }
         }
         if(!isLetra){
-            alert("Solo puede letras minusculas sin acento.\nTampoco acepta caracteres especiales");
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "Proibido caracteres Especiales (numeros, !@#$, saltos de linea ...)",
+              });
             return false;
         }
         if(cadena[i]==cadena[i].toUpperCase() && cadena[i]!=" "){
-            alert("No puede utilizar Mayusculas");
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "Solo minusculas",
+              });
             return false;
         }
         
